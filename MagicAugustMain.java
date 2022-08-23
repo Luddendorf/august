@@ -6,6 +6,9 @@ public class MagicAugustMain {
 	  System.out.println("Hello August");
 	}
 
+    public String getMyName(String name) {
+        return name;
+    }
 
     public boolean getCheckboxStatus(boolean newStatus) {
         this.hasUserAgreedToTeams = !this.hasUserAgreedToTeams;
